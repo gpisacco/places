@@ -1,0 +1,27 @@
+{
+  "name": "places-api",
+  "version": "1.0.0",
+  "description": "Lambda function to retrieve places from Here API",
+  "main": "places.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpisacco/places.git"
+  },
+  "keywords": [
+    "places",
+    "geolocation"
+  ],
+  "author": "Gaston Pisacco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpisacco/places/issues"
+  },
+  "homepage": "https://github.com/gpisacco/places#readme"
+}
