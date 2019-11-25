@@ -19,15 +19,11 @@ Parameters:
   HereAppCode:
     Type: String
     Description: App code for Here API
-  HereAppCode:
+  HereBaseURL:
     Type: String
-    Description: 'Here API url up to the version number (Ex: https://places.demo.api.here.com/places/v1)'
+    Description: "Here API url up to the version number (Ex: https://places.demo.api.here.com/places/v1)"
     
 Resources:
-
-  #
-  # Our Lambda function.  Basic code has been added.  You will replace the code later via your Github repo.
-  #
   ContactUsFunction:
     Type: AWS::Serverless::Function
     Properties:
@@ -49,11 +45,11 @@ Resources:
 
 Outputs:
   ApiUrl:
-    Description: URL of your API endpoint
+    Description: "URL of your API endpoint"
     Value: !Join
       - ''
       - - https://
         - !Ref ServerlessRestApi
         - '.execute-api.'
         - !Ref 'AWS::Region'
-        - '.amazonaws.com/Prod
+        - '.amazonaws.com/Prod'

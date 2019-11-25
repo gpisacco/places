@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Serverless Places API
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+    - Label:
+        default: Configuration
+      Parameters:
+      - HereAppId
+      - HereAppCode
+      - HereBaseURL
+Outputs:
+  ApiUrl:
+    Description: URL of your API endpoint
+    Value:
+      Fn::Join:
+      - ''
+      - - https://
+        - Ref: ServerlessRestApi
+        - .execute-api.
+        - Ref: AWS::Region
+        - .amazonaws.com/Prod
+Parameters:
+  HereAppCode:
+    Description: App code for Here API
+    Type: String
+  HereAppId:
+    Description: App id for Here API
+    Type: String
+  HereBaseURL:
+    Description: 'Here API url up to the version number (Ex: https://places.demo.api.here.com/places/v1)'
+    Type: String
+Resources:
+  FindPlacesAPI:
+    Properties:
+      CodeUri: s3://3lmedia/005b2f68dfd7978ef4e1989a3f115e7a
+      Environment:
+        Variables:
+          HereAppCode:
+            Ref: HereAppCode
+          HereAppId:
+            Ref: HereAppId
+          HereBaseURL:
+            Ref: HereBaseURL
+      Events:
+        PostEvent:
+          Properties:
+            Method: get
+            Path: /places
+          Type: Api
+      Handler: places.handler
+      Runtime: nodejs12
+      Timeout: 5
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
