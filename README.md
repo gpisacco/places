@@ -2,9 +2,9 @@
 
 This project holds a lambda function that gets information about near hotels from HERE api.
 
-Test site is located in [here](https://gpisacco.github.io/places/docs/swagger/dist/index.html)
+Test site is located in [here](https://gpisacco.github.io/places/swagger/dist/index.html)
 
-Coverage information is located in [here](https://gpisacco.github.io/places/docs/coverage/index.html)
+Coverage information is located in [here](https://gpisacco.github.io/places/docs/coverage/lcov-report/index.html)
 
 ## Package and Deploy
 
