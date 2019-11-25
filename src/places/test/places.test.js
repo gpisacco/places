@@ -1,5 +1,5 @@
-const places = require('../places');
-const fetch = require('node-fetch');
+const places = require('../../places');
+const fetch = require('test/node_modules/node-fetch');
 const fs = require('fs')
 beforeEach(() => {
   fetch.resetMocks();

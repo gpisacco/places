@@ -18,8 +18,10 @@
   "scripts": {
     "test": "jest",
     "test:cov": "jest --coverage",
-    "build": "webpack",
-    "dev": "webpack --watch"
+    "build": "webpack && jest --coverage",
+    "dev": "webpack --watch",
+    "package": "sam package --template-file src/template.yaml --output-template-file packaged.yaml --s3-bucket",
+    "deploy": " aws cloudformation deploy --template-file packaged.yaml --stack-name places2  --capabilities CAPABILITY_IAM --parameter-overrides "
   },
   "jest": {
     "automock": false,

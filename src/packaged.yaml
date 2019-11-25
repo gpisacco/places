@@ -16,7 +16,7 @@ Outputs:
       Fn::Join:
       - ''
       - - https://
-        - Ref: ServerlessRestApi
+        - Ref: RestApi
         - .execute-api.
         - Ref: AWS::Region
         - .amazonaws.com/Prod
@@ -31,9 +31,9 @@ Parameters:
     Description: 'Here API url up to the version number (Ex: https://places.demo.api.here.com/places/v1)'
     Type: String
 Resources:
-  FindPlacesAPI:
+  PlacesFunction:
     Properties:
-      CodeUri: s3://3lmedia/005b2f68dfd7978ef4e1989a3f115e7a
+      CodeUri: s3://3lmedia/60132a51dae9cf681a7c392c4758b801
       Environment:
         Variables:
           HereAppCode:
@@ -43,13 +43,34 @@ Resources:
           HereBaseURL:
             Ref: HereBaseURL
       Events:
-        PostEvent:
+        GetEvent:
           Properties:
             Method: get
             Path: /places
+            RequestParameters:
+            - method.request.querystring.latlong:
+                Caching: false
+                Required: true
+            RequestValidator:
+              Ref: RequestValidator
+            RestApiId:
+              Ref: RestApi
           Type: Api
       Handler: places.handler
-      Runtime: nodejs12
+      Runtime: nodejs8.10
       Timeout: 5
     Type: AWS::Serverless::Function
+  RequestValidator:
+    Properties:
+      Name: validator1
+      RestApiId:
+        Ref: RestApi
+      ValidateRequestBody: true
+      ValidateRequestParameters: true
+    Type: AWS::ApiGateway::RequestValidator
+  RestApi:
+    Properties:
+      Name: api1
+      StageName: Prod
+    Type: AWS::Serverless::Api
 Transform: AWS::Serverless-2016-10-31
