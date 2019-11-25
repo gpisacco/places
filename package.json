@@ -6,9 +6,19 @@
   "dependencies": {
     "node-fetch": "^2.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-fetch-mock": "^2.1.2",
+    "jest": "^24.9.0"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./test/setupJest.js"
+    ]
   },
   "repository": {
     "type": "git",
