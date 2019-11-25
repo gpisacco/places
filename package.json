@@ -1,0 +1,45 @@
+{
+  "name": "places-api",
+  "version": "1.0.0",
+  "description": "Lambda function to retrieve places from Here API",
+  "main": "places.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "jest": "^24.9.0",
+    "jest-fetch-mock": "^2.1.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "swagger-ui": "^3.24.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./test/setupJest.js"
+    ],
+    "coverageDirectory": "docs/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpisacco/places.git"
+  },
+  "keywords": [
+    "places",
+    "geolocation"
+  ],
+  "author": "Gaston Pisacco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpisacco/places/issues"
+  },
+  "homepage": "https://github.com/gpisacco/places#readme"
+}

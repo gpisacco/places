@@ -1,0 +1,932 @@
+{
+    "results": {
+        "next": "https://places.demo.api.here.com/places/v1/discover/explore;context=Y2F0PWFjY29tbW9kYXRpb24mZmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmb2Zmc2V0PTIwJnNpemU9MjA?at=52.5159%2C13.3777&app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+        "items": [
+            {
+                "position": [
+                    52.51577,
+                    13.38022
+                ],
+                "distance": 171,
+                "title": "Adlon Kempinski Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Unter den Linden 77<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-cc50ca74bc7e4e19a646a85abd9ca9ee;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0w?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "tags": [
+                    {
+                        "id": "european",
+                        "title": "European",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "french",
+                        "title": "French",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u33db-cc50ca74bc7e4e19a646a85abd9ca9ee",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "363"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Adlon Kempinski Hotel",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Hotel Adlon Kempinski",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Adlon Kempinski",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52172,
+                    13.3796
+                ],
+                "distance": 660,
+                "title": "Arte Luise Kunsthotel",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Luisenstraße 19<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-66a782586c334109889aba5dc651f825;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0x?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-66a782586c334109889aba5dc651f825",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Arte Luise Kunsthotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Arte Luise Kunsthotel Hotel Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51657,
+                    13.3887
+                ],
+                "distance": 748,
+                "title": "The Westin Grand Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 158<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-4dd714e4acf9402fb18e1b5dd1285117;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0y?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-4dd714e4acf9402fb18e1b5dd1285117",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "247"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Westin Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Berlin Westin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "The WESTIN Grand Berlin",
+                        "language": "de"
+                    },
+                    {
+                        "name": "The Westin Grand Berlin Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Westin Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51836,
+                    13.38816
+                ],
+                "distance": 759,
+                "title": "Maritim proArte Hotel Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 151<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-0d76f50bb8ea4efe87a50a20b5850b63;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0z?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-0d76f50bb8ea4efe87a50a20b5850b63",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "27236"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Hotel Maritim Proarte",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Maritim Proarte Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51133,
+                    13.38626
+                ],
+                "distance": 771,
+                "title": "Cityhostel Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Glinkastraße 5<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-1f6291d376c84058bf744ab2dd4e2e61;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz00?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-1f6291d376c84058bf744ab2dd4e2e61",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "City Hostel Berlin Hotel Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.50917,
+                    13.37367
+                ],
+                "distance": 796,
+                "title": "The Mandala Hotel",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Potsdamer Straße 3<br/>Tiergarten, 10785 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-e66a66133bfa43119fcdb26e8f1fbbdc;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz01?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-e66a66133bfa43119fcdb26e8f1fbbdc",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Mandala Hotel",
+                        "language": "en"
+                    },
+                    {
+                        "name": "The Mandala",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52212,
+                    13.38472
+                ],
+                "distance": 839,
+                "title": "ALLEGRA Hotel Berlin Mitte",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Albrechtstraße 17<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-f7fe7ae74d984c0abb418d2da27bccbb;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz02?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-f7fe7ae74d984c0abb418d2da27bccbb",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "702"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Allegra Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "VCH-Hotel Allegra",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51586,
+                    13.39021
+                ],
+                "distance": 847,
+                "title": "Clipper City Home",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Behrenstraße 47<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-ac70f71b79364efc92ce9a6d3384cdc5;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz03?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-ac70f71b79364efc92ce9a6d3384cdc5",
+                "openingHours": {
+                    "text": "Mon-Fri: 07:00 - 23:00<br/>Sat, Sun: 08:00 - 19:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T070000",
+                            "duration": "PT16H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T080000",
+                            "duration": "PT11H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Clipper City Home Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Clipper City Home Berlin",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52301,
+                    13.38305
+                ],
+                "distance": 870,
+                "title": "ApartHotel Residenz Am Deutschen Theater",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Reinhardtstraße 27<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-feb18876cd8d4fa8819244f759351441;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz04?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-feb18876cd8d4fa8819244f759351441",
+                "openingHours": {
+                    "text": "Mon-Fri: 07:00 - 22:00<br/>Sat, Sun: 07:00 - 20:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T070000",
+                            "duration": "PT15H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T070000",
+                            "duration": "PT13H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Residenz am Deutschen Theater",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51448,
+                    13.39095
+                ],
+                "distance": 910,
+                "title": "Sofitel Berlin Gendarmenmarkt",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Charlottenstraße 52<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-47c9194ddfb042a881bcf27fc696588f;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz05?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-47c9194ddfb042a881bcf27fc696588f",
+                "chainIds": [
+                    "25"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Accor Berlin Gendarmenmarkt",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Berlin Sofitel",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Sofitel Berlin Gendarmenmarkt Hotel Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52034,
+                    13.38909
+                ],
+                "distance": 915,
+                "title": "Eurostars Berlin Hotel",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 99<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-4e0591c0d08244ef80143ba9ab5a66cc;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xMA?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-4e0591c0d08244ef80143ba9ab5a66cc",
+                "chainIds": [
+                    "2091"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Eurostars Berlin",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52318,
+                    13.38414
+                ],
+                "distance": 919,
+                "title": "Hotel Amelie Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Reinhardtstraße 21<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-a98eadd57e4240ecb9652c903a2afee9;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xMQ?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-a98eadd57e4240ecb9652c903a2afee9",
+                "openingHours": {
+                    "text": "Mon-Sun: 07:00 - 02:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T070000",
+                            "duration": "PT19H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Amelie",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51186,
+                    13.38964
+                ],
+                "distance": 924,
+                "title": "The Mandala Suites",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 185<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-51da75d2a9934be19b3dd387b9917660;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xMg?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-51da75d2a9934be19b3dd387b9917660",
+                "alternativeNames": [
+                    {
+                        "name": "Mandala Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "The Mandala Hotel Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52138,
+                    13.38833
+                ],
+                "distance": 943,
+                "title": "Melia Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 103<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-10e35e5ad0b0460e9fe49fc85a2bb8e7;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xMw?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "tags": [
+                    {
+                        "id": "european",
+                        "title": "European",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "mediterranean",
+                        "title": "Mediterranean",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "spanish",
+                        "title": "Spanish",
+                        "group": "cuisine"
+                    },
+                    {
+                        "id": "tapas",
+                        "title": "Tapas",
+                        "group": "cuisine"
+                    }
+                ],
+                "id": "276u33db-10e35e5ad0b0460e9fe49fc85a2bb8e7",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "2108"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Melia Tapas",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Berlin Melia",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Melia Berlin Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Meliá Berlin",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.50792,
+                    13.37253
+                ],
+                "distance": 954,
+                "title": "Grand Hyatt Berlin",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Marlene-Dietrich-Platz 2<br/>Tiergarten, 10785 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-e8ea92be93e04b8b9c4ca440bd1a27a2;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xNA?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-e8ea92be93e04b8b9c4ca440bd1a27a2",
+                "chainIds": [
+                    "2054"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Berlin Grand Hyatt",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Berlin Hyatt",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Grand Hyatt Berlin Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Hyatt Berlin",
+                        "language": "en"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.52257,
+                    13.38666
+                ],
+                "distance": 958,
+                "title": "Leonardo Hotel Berlin Mitte",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Bertolt-Brecht-Platz 4<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276jx7ps-b9db5d9dd7ca028da524f98c06012a20;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xNQ?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276jx7ps-b9db5d9dd7ca028da524f98c06012a20",
+                "chainIds": [
+                    "9398"
+                ]
+            },
+            {
+                "position": [
+                    52.5103,
+                    13.38876
+                ],
+                "distance": 974,
+                "title": "NH Collection Berlin Mitte am Checkpoint Charlie",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Leipziger Straße 106<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-bde33039816644dcb4e9494435228e24;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xNg?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-bde33039816644dcb4e9494435228e24",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "chainIds": [
+                    "29133"
+                ],
+                "alternativeNames": [
+                    {
+                        "name": "Nh Berlin Mitte Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Nh Hotel Berlin Mitte",
+                        "language": "en"
+                    },
+                    {
+                        "name": "NH Berlin Mitte",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.51183,
+                    13.39139
+                ],
+                "distance": 1031,
+                "title": "Hotel Gendarm Nouveau",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Charlottenstraße 61<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-095c3a849211448aa41a6eb57b4eba4b;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xNw?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-095c3a849211448aa41a6eb57b4eba4b",
+                "openingHours": {
+                    "text": "Mon-Sun: 00:00 - 24:00",
+                    "label": "Opening hours",
+                    "isOpen": true,
+                    "structured": [
+                        {
+                            "start": "T000000",
+                            "duration": "PT24H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR,SA,SU"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Gendarm Hotel Berlin",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Gendarm Nouveau",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.509,
+                    13.38838
+                ],
+                "distance": 1054,
+                "title": "Hotel Gat Point Charlie",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Mauerstraße 81<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33d8-bbb353638f03477785fca81a8bc20a5b;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xOA?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33d8-bbb353638f03477785fca81a8bc20a5b",
+                "alternativeNames": [
+                    {
+                        "name": "Gat Rooms Hotels",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Gat Point Charlie",
+                        "language": "de"
+                    }
+                ]
+            },
+            {
+                "position": [
+                    52.522991,
+                    13.388084
+                ],
+                "distance": 1056,
+                "title": "Riverside Hotel",
+                "averageRating": 0,
+                "category": {
+                    "id": "hotel",
+                    "title": "Hotel",
+                    "href": "https://places.demo.api.here.com/places/v1/categories/places/hotel?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                    "type": "urn:nlp-types:category",
+                    "system": "places"
+                },
+                "icon": "https://download.vcdn.cit.data.here.com/p/d/places2_stg/icons/categories/01.icon",
+                "vicinity": "Friedrichstraße 106<br/>Mitte, 10117 Berlin",
+                "having": [],
+                "type": "urn:nlp-types:place",
+                "href": "https://places.demo.api.here.com/places/v1/places/276u33db-af02fef86a034d408577acd77906983e;context=Zmxvdy1pZD1hODFiZDExMC1lOTgyLTU4ZmUtOTY2YS1iYTFkYTVjZjJkZjZfMTU3NDIyMDUwODEwMF8wXzk1MDEmcmFuaz0xOQ?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg",
+                "id": "276u33db-af02fef86a034d408577acd77906983e",
+                "openingHours": {
+                    "text": "Mon-Fri: 12:00 - 20:00<br/>Sat: 12:00 - 22:00",
+                    "label": "Opening hours",
+                    "isOpen": false,
+                    "structured": [
+                        {
+                            "start": "T120000",
+                            "duration": "PT08H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:MO,TU,WE,TH,FR"
+                        },
+                        {
+                            "start": "T120000",
+                            "duration": "PT10H00M",
+                            "recurrence": "FREQ:DAILY;BYDAY:SA"
+                        }
+                    ]
+                },
+                "alternativeNames": [
+                    {
+                        "name": "Artist Riverside Hotel & Spa",
+                        "language": "en"
+                    },
+                    {
+                        "name": "Riverside City",
+                        "language": "de"
+                    }
+                ]
+            }
+        ]
+    },
+    "search": {
+        "context": {
+            "location": {
+                "position": [
+                    52.5159,
+                    13.3777
+                ],
+                "address": {
+                    "text": "Ebertstraße 22<br/>Mitte, 10117 Berlin<br/>Germany",
+                    "house": "22",
+                    "street": "Ebertstraße",
+                    "postalCode": "10117",
+                    "district": "Mitte",
+                    "city": "Berlin",
+                    "county": "Berlin",
+                    "stateCode": "Berlin",
+                    "country": "Germany",
+                    "countryCode": "DEU"
+                }
+            },
+            "type": "urn:nlp-types:place",
+            "href": "https://places.demo.api.here.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPUViZXJ0c3RyYSVDMyU5RmUrMjI7bGF0PTUyLjUxNTk7bG9uPTEzLjM3Nzc7c3RyZWV0PUViZXJ0c3RyYSVDMyU5RmU7aG91c2U9MjI7Y2l0eT1CZXJsaW47cG9zdGFsQ29kZT0xMDExNztjb3VudHJ5PURFVTtkaXN0cmljdD1NaXR0ZTtzdGF0ZUNvZGU9QmVybGluO2NvdW50eT1CZXJsaW47Y2F0ZWdvcnlJZD1idWlsZGluZztzb3VyY2VTeXN0ZW09aW50ZXJuYWw;context=c2VhcmNoQ29udGV4dD0x?app_id=DemoAppId01082013GAL&app_code=AJKnXv84fjrb0KIHawS0Tg"
+        }
+    }
+}
