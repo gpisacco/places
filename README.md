@@ -6,7 +6,7 @@ It can be deployed using cloudformation command or from AWS SAR Repository.
 
 Test site is located in [here](https://gpisacco.github.io/places/swagger/dist/index.html)
 
-Coverage information is located in [here](https://gpisacco.github.io/places/docs/coverage/lcov-report/index.html)
+Coverage information is located in [here](https://gpisacco.github.io/places/coverage/lcov-report/index.html)
 
 ## Requirements
 
@@ -27,7 +27,7 @@ npm run deploy HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api
 
 ## Build , test and execute locally the lambda function
 
-Check readme in src/places
+Check readme [here](/src)
 
 
 ## Package and Deploy

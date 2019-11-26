@@ -11,12 +11,12 @@
     "swagger-ui": "^3.24.3"
   },
   "scripts": {
-    "test": "cd src/places/ && npm install && node_modules/.bin/jest && cd ..",
-    "test:cov": "cd src/places/ && npm install && node_modules/.bin/jest --coverage && cd ..",
-    "build": "webpack && cd src/places/ && node_modules/.bin/jest --coverage && cd ..",
+    "test": "cd src/places/ && npm install && node_modules/.bin/jest && cd -",
+    "test:cov": "cd src/places/ && npm install && node_modules/.bin/jest --coverage && cd -",
+    "build": "webpack && cd src/places/ && node_modules/.bin/jest --coverage && cd -",
     "dev": "webpack --watch",
-    "package": "cd src/places && npm install --prod && cd .. && sam package --template-file src/template.yaml --output-template-file packaged.yaml --s3-bucket",
-    "deploy": " aws cloudformation deploy --template-file packaged.yaml --stack-name places2  --capabilities CAPABILITY_IAM --parameter-overrides "
+    "package": "cd src/places && npm install --prod && cd - && sam package --template-file src/template.yaml --output-template-file packaged.yaml --s3-bucket",
+    "deploy": " aws cloudformation deploy --template-file packaged.yaml --stack-name places  --capabilities CAPABILITY_IAM --parameter-overrides "
   },
   "repository": {
     "type": "git",

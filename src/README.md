@@ -17,7 +17,7 @@ This is a sample template for places - Below is a brief explanation of what we h
 
 ## Requirements
 
-* HERE api appId , appCode and BaseURL set in env.json
+* HERE api appId, appCode and BaseURL set in env.json
 * AWS CLI already configured with Administrator permission
 * [NodeJS 8.10+ installed](https://nodejs.org/en/download/)
 * [Docker installed](https://www.docker.com/community-edition)
@@ -95,7 +95,7 @@ After deployment is complete you can run the following command to retrieve the A
 ```bash
 aws cloudformation describe-stacks \
     --stack-name places \
-    --query 'Stacks[].Outputs[?OutputKey==`places2`]' \
+    --query 'Stacks[].Outputs[?OutputKey==`places`]' \
     --output table
 ``` 
 
@@ -116,7 +116,7 @@ You can find more information and examples about filtering Lambda function logs 
 We use `jest` for testing our code and it is already added in `package.json` under `scripts`, so that we can simply run the following command to run our tests:
 
 ```bash
-cd hello-world
+cd places
 npm install
 npm run test
 ```
@@ -136,7 +136,7 @@ Here are a few things you can try to get more acquainted with building serverles
 ### Learn how SAM Build can help you with dependencies
 
 * Build the project with ``sam build --use-container``
-* Invoke with ``sam local invoke PlacesFunction --event event.json``
+* Invoke with ``sam local invoke PlacesFunction --event event.json --env-vars places/env.json``
 * Update tests
 
 ### Create an additional API resource
@@ -174,10 +174,10 @@ All commands used throughout this document
 
 ```bash
 # Invoke function locally with event.json as an input
-sam local invoke PlacesFunction --event event.json
+sam local invoke PlacesFunction --event event.json --env-vars places/env.json
 
 # Run API Gateway locally
-sam local start-api
+sam local start-api --env-vars places/env.json
 
 # Create S3 bucket
 aws s3 mb s3://BUCKET_NAME
