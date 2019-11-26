@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/swagger-ui */ \"./node_modules/swagger-ui/dist/swagger-ui.js\");\n/* harmony import */ var _node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0__);\n\n\n_node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0___default()({\n    url: \"https://petstore.swagger.io/v2/swagger.json\",\n    dom_id: '#api'\n})\n\n\n//# sourceURL=webpack:///./docs/swagger/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/swagger-ui */ \"./node_modules/swagger-ui/dist/swagger-ui.js\");\n/* harmony import */ var _node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0__);\n\n\n_node_modules_swagger_ui__WEBPACK_IMPORTED_MODULE_0___default()({\n    url: \"swagger.yaml\",\n    dom_id: '#api'\n})\n\n\n//# sourceURL=webpack:///./docs/swagger/index.js?");
 
 /***/ }),
 

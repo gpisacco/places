@@ -8,6 +8,8 @@ Test site is located in [here](https://gpisacco.github.io/places/swagger/dist/in
 
 Coverage information is located in [here](https://gpisacco.github.io/places/coverage/lcov-report/index.html)
 
+The API can be tested in https://km7ftnobv9.execute-api.us-east-1.amazonaws.com/Prod/places?latlong=52.51577,13.38022
+
 ## Requirements
 
 * HERE api appId, appCode and BaseURL set in src/places/env.json
@@ -27,7 +29,7 @@ npm run deploy HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api
 
 ## Build , test and execute locally the lambda function
 
-Check readme [here](/src)
+Check readme [here](https://github.com/gpisacco/places/tree/master/src)
 
 
 ## Package and Deploy
@@ -38,8 +40,8 @@ The application has been created and set up a SAM application hosted in AWS SAR 
 
 ## Using npm (wrapping aws cli and sam cli)
 ```bash
-npm run package -- <bucket> # packages sam application
-npm run deploy -- HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api.here.com/places/v1 # deploy application to aws
+npm run package <bucket> # packages sam application
+npm run deploy  HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api.here.com/places/v1 # deploy application to aws
 ```
 
 ### Using aws cli

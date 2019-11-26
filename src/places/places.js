@@ -26,7 +26,7 @@ exports.handler = async (event, context) => {
                 "Access-Control-Allow-Origin": "*", // Required for CORS support to work
                 "Access-Control-Allow-Credentials": true // Required for cookies, authorization headers with HTTPS
             },
-            body: JSON.stringify(output)
+            body: JSON.stringify(output.results.items)
         };
     }
 

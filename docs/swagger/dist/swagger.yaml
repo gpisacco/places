@@ -1,0 +1,222 @@
+openapi: "3.0.0"
+info:
+  version: 0.1.4
+  title: Places API
+  license:
+    name: MIT
+servers:
+  - url: https://km7ftnobv9.execute-api.us-east-1.amazonaws.com/Prod
+paths:
+  /places:
+    get:
+      summary: Get nearby hotel using HERE Places API
+      operationId: listPlaces
+      tags:
+        - places
+      parameters:
+        - name: latlong
+          in: query
+          description: Latitude and Longitude of the central point, ex 52.5159,13.3777
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A paged array of Hotel Records
+          content:
+            application/json:    
+              schema:
+                $ref: "#/components/schemas/HotelRecords"
+components:
+  schemas:
+    HotelRecord:
+      type: object
+      title: Hotel Record
+      properties:
+        position:
+          type: array
+          title: The Position Schema
+          items:
+            type: number
+            title: The Items Schema
+            default: 0
+        distance:
+          type: integer
+          title: The Distance Schema
+          default: 0
+        title:
+          type: string
+          title: The Title Schema
+          default: ''
+          pattern: "^(.*)$"
+        averageRating:
+          type: integer
+          title: The Averagerating Schema
+          default: 0
+        category:
+          type: object
+          title: The Category Schema
+          required:
+          - id
+          - title
+          - href
+          - type
+          - system
+          properties:
+            id:
+              type: string
+              title: The Id Schema
+              default: ''
+              pattern: "^(.*)$"
+            title:
+              type: string
+              title: The Title Schema
+              default: ''
+              pattern: "^(.*)$"
+            href:
+              type: string
+              title: The Href Schema
+              default: ''
+              pattern: "^(.*)$"
+            type:
+              type: string
+              title: The Type Schema
+              default: ''
+              pattern: "^(.*)$"
+            system:
+              type: string
+              title: The System Schema
+              default: ''
+              pattern: "^(.*)$"
+        icon:
+          type: string
+          title: The Icon Schema
+          default: ''
+          pattern: "^(.*)$"
+        vicinity:
+          type: string
+          title: The Vicinity Schema
+          default: ''
+          pattern: "^(.*)$"
+        type:
+          type: string
+          title: The Type Schema
+          default: ''
+          pattern: "^(.*)$"
+        href:
+          type: string
+          title: The Href Schema
+          default: ''
+          pattern: "^(.*)$"
+        tags:
+          type: array
+          title: The Tags Schema
+          items:
+            type: object
+            title: The Items Schema
+            required:
+            - id
+            - title
+            - group
+            properties:
+              id:
+                type: string
+                title: The Id Schema
+                default: ''
+                pattern: "^(.*)$"
+              title:
+                type: string
+                title: The Title Schema
+                default: ''
+                pattern: "^(.*)$"
+              group:
+                type: string
+                title: The Group Schema
+                default: ''
+                pattern: "^(.*)$"
+        id:
+          type: string
+          title: The Id Schema
+          default: ''
+          pattern: "^(.*)$"
+        openingHours:
+          type: object
+          title: The Openinghours Schema
+          required:
+          - text
+          - label
+          - isOpen
+          - structured
+          properties:
+            text:
+              type: string
+              title: The Text Schema
+              default: ''
+              pattern: "^(.*)$"
+            label:
+              type: string
+              title: The Label Schema
+              default: ''
+              pattern: "^(.*)$"
+            isOpen:
+              type: boolean
+              title: The Isopen Schema
+              default: false
+            structured:
+              type: array
+              title: The Structured Schema
+              items:
+                type: object
+                title: The Items Schema
+                required:
+                - start
+                - duration
+                - recurrence
+                properties:
+                  start:
+                    type: string
+                    title: The Start Schema
+                    default: ''
+                    pattern: "^(.*)$"
+                  duration:
+                    type: string
+                    title: The Duration Schema
+                    default: ''
+                    pattern: "^(.*)$"
+                  recurrence:
+                    type: string
+                    title: The Recurrence Schema
+                    default: ''
+                    pattern: "^(.*)$"
+        chainIds:
+          type: array
+          title: The Chainids Schema
+          items:
+            type: string
+            title: The Items Schema
+            default: ''
+            pattern: "^(.*)$"
+        alternativeNames:
+          type: array
+          title: The Alternativenames Schema
+          items:
+            type: object
+            title: The Items Schema
+            required:
+            - name
+            - language
+            properties:
+              name:
+                type: string
+                title: The Name Schema
+                default: ''
+                pattern: "^(.*)$"
+              language:
+                type: string
+                title: The Language Schema
+                default: ''
+                pattern: "^(.*)$"
+    HotelRecords:
+      type: array
+      items:
+        $ref: "#/components/schemas/HotelRecord"
