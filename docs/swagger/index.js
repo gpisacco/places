@@ -1,4 +1,4 @@
-import SwaggerUI from 'swagger-ui'
+import SwaggerUI from '../../src/node_modules/swagger-ui'
 // or use require, if you prefer
 
 SwaggerUI({

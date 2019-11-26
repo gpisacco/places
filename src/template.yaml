@@ -1,12 +1,11 @@
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
 Description: Serverless Places API
 
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
-      -
-        Label:
+      - Label:
           default: "Configuration"
         Parameters:
           - HereAppId
@@ -22,21 +21,39 @@ Parameters:
   HereBaseURL:
     Type: String
     Description: "Here API url up to the version number (Ex: https://places.demo.api.here.com/places/v1)"
-    
+
 Resources:
-  ContactUsFunction:
+  RestApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: api1
+      StageName: Prod
+  RequestValidator:
+    Type: AWS::ApiGateway::RequestValidator
+    Properties:
+      Name: validator1
+      RestApiId: !Ref RestApi
+      ValidateRequestBody: true
+      ValidateRequestParameters: true
+
+  PlacesFunction:
     Type: AWS::Serverless::Function
     Properties:
       Handler: places.handler
       Timeout: 5
-      CodeUri: ./places.js
-      Runtime: nodejs12
+      CodeUri: places/
+      Runtime: nodejs8.10
       Events:
-        PostEvent:
+        GetEvent:
           Type: Api
           Properties:
             Path: /places
             Method: get
+            RestApiId: !Ref RestApi
+            RequestParameters:
+              - method.request.querystring.latlong:
+                  Required: true
+                  Caching: false
       Environment:
         Variables:
           HereAppId: !Ref HereAppId
@@ -47,9 +64,9 @@ Outputs:
   ApiUrl:
     Description: "URL of your API endpoint"
     Value: !Join
-      - ''
+      - ""
       - - https://
-        - !Ref ServerlessRestApi
-        - '.execute-api.'
-        - !Ref 'AWS::Region'
-        - '.amazonaws.com/Prod'
+        - !Ref RestApi
+        - ".execute-api."
+        - !Ref "AWS::Region"
+        - ".amazonaws.com/Prod"
