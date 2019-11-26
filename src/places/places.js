@@ -11,7 +11,8 @@ exports.handler = async (event, context) => {
         const latLong = event.queryStringParameters.latlong;
         const url = `${HERE_BASE_URL}/discover/explore?at=${latLong}&cat=accommodation&app_id=${HERE_APP_ID}&app_code=${HERA_APP_CODE}`;
         const response = await fetch(url);
-        output = await response.json();
+        const data = await response.json();
+        output = data.results.items
         status = response.status;
     } catch (err) {
         console.error(err)
@@ -26,7 +27,7 @@ exports.handler = async (event, context) => {
                 "Access-Control-Allow-Origin": "*", // Required for CORS support to work
                 "Access-Control-Allow-Credentials": true // Required for cookies, authorization headers with HTTPS
             },
-            body: JSON.stringify(output.results.items)
+            body: JSON.stringify(output)
         };
     }
 

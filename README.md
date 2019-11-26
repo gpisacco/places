@@ -8,7 +8,7 @@ Test site is located in [here](https://gpisacco.github.io/places/swagger/dist/in
 
 Coverage information is located in [here](https://gpisacco.github.io/places/coverage/lcov-report/index.html)
 
-The API can be tested in https://km7ftnobv9.execute-api.us-east-1.amazonaws.com/Prod/places?latlong=52.51577,13.38022
+The API can be tested in https://wbn8k2tvi2.execute-api.us-east-1.amazonaws.com/Prod/places?latlong=52.51577,13.38022
 
 ## Requirements
 
@@ -49,7 +49,7 @@ npm run deploy  HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.ap
 ```bash
 sam package --template-file src/template.yaml --output-template-file packaged.yaml --s3-bucket  <your-bucket>
 
-aws cloudformation deploy --template-file stack-output.yaml --stack-name places --capabilities CAPABILITY_IAM  --parameter-overrides "HereAppId=???" "HereAppCode=???" "HereBaseURL=https://places.demo.api.here.com/places/v1"
+aws cloudformation deploy --template-file packaged.yaml --stack-name places --capabilities CAPABILITY_IAM  --parameter-overrides "HereAppId=???" "HereAppCode=???" "HereBaseURL=https://places.demo.api.here.com/places/v1"
 ```
 
 ## The project uses
