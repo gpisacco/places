@@ -1,11 +1,11 @@
 openapi: "3.0.0"
 info:
-  version: 0.1.2
+  version: 0.1.4
   title: Places API
   license:
     name: MIT
 servers:
-  - url: https://ud2l8zprv8.execute-api.us-east-1.amazonaws.com/Prod
+  - url: https://km7ftnobv9.execute-api.us-east-1.amazonaws.com/Prod
 paths:
   /places:
     get:
@@ -27,12 +27,6 @@ paths:
             application/json:    
               schema:
                 $ref: "#/components/schemas/HotelRecords"
-        default:
-          description: unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/Error"
 components:
   schemas:
     HotelRecord:
@@ -226,14 +220,3 @@ components:
       type: array
       items:
         $ref: "#/components/schemas/HotelRecord"
-    Error:
-      type: object
-      required:
-        - code
-        - message
-      properties:
-        code:
-          type: integer
-          format: int32
-        message:
-          type: string
