@@ -8,20 +8,26 @@ Test site is located in [here](https://gpisacco.github.io/places/swagger/dist/in
 
 Coverage information is located in [here](https://gpisacco.github.io/places/docs/coverage/lcov-report/index.html)
 
+## Requirements
+
+* HERE api appId, appCode and BaseURL set in src/places/env.json
+* Those values should be obtained from HERE website https://developer.here.com/develop/rest-apis
 
 
-
-
-##Build and test
+## Build and test project
 ```bash
 npm install # to install deps
 npm test # run unit test
 npm run test:cov #generates coverage doc
 npm build # generates coverage and swagger ui testing site
-npm run package -- <bucket> # packages sam application
-npm run deploy -- HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api.here.com/places/v1 # deploy application to aws
+npm run package <bucket> # packages sam application
+npm run deploy HereAppId=??? HereAppCode=??? HereBaseURL=https://places.demo.api.here.com/places/v1 # deploy application to aws
 
 ```
+
+## Build , test and execute locally the lambda function
+
+Check readme in src/places
 
 
 ## Package and Deploy
