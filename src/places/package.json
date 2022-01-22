@@ -4,7 +4,7 @@
   "description": "Lambda function to retrieve places from Here API",
   "main": "places.js",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^3.1.1"
   },
   "devDependencies": {
     "jest": "^24.9.0",
